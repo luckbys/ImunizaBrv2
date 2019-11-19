@@ -21,10 +21,10 @@ $(document).ready(function () {
       for (var i in latestNews) {
         output += `
         <center>
-       <div class="col-sm-2 col-md-6">
+       <div class="col-sm-2 col-md-8">
         <div class="row align-items-start ">
         
-        <div class="card " style="width: 50rem"; style="padding-left: 80px;">
+        <div class="card " style="width: 300rem"; style="padding-left: 80px;">
         <img  class="card-img-top" src="${latestNews[i].urlToImage}" alt="${latestNews[i].title}">
         <div class="card-body">
         <h6 class="card-text">Titulo: <a href="${latestNews[i].url}" title="${latestNews[i].title}">${latestNews[i].title}</a></h6>         
